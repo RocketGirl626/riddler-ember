@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Riddler</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
+  <script src="libs/jquery-1.11.3.js"></script>
+  <script src="libs/ember-template-compiler-1.12.0.js"></script>
+  <script src="libs/ember-1.12.0.debug.js"></script>
+  <script src="libs/ember-handlebars-loader-0.0.2.js"></script>
+  <script src="libs/ember-data.js"></script>
+  <script src="libs/localstorage-adapter.js"></script>
+
+  <script src="riddler.js"></script>
+  <script src="router.js"></script>
+  <script src="store.js"></script>
+
+  <script src="controllers/riddle.js"></script>
+  <script src="controllers/riddles.js"></script>
+  <script src="controllers/new-riddle.js"></script>
+  <script src="controllers/new-answer.js"></script>
+
+  <script src="routes/riddles.js"></script>
+  <script src="routes/recent-answers.js"></script>
+  <script src="routes/riddle.js"></script>
+
+  <script src="models/riddle.js"></script>
+  <script src="models/answer.js"></script>
+
+  <script>
+  EmberHandlebarsLoader.loadTemplates(['riddles', 'riddle', 'new-riddle', 'application', 'recent-answers', 'new-answer']);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+Riddler = Ember.Application.create();
